@@ -18,80 +18,90 @@
             <h1 class="title"> Formulario </h1></br>
         </div>
     </header>
+    <!-- background -->
+    <div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+
+</div>
 
 
-    <section class="section-form">
+    <section class="box-shadown">
         <center>
-
-            <form name="form" action="registro.php" method="post">
-                <div class="parent">
-                    <div class="div1">Primer Nombre :<input type="text" name="nombre1" required></div>
-                    <div class="div2">Segundo Nombre:<input type="text" name="nombre2" required></div>
-                    <div class="div3">Primer Apellido :<input type="text" name="apellido1" required></div>
-                    <div class="div4">Segundo Apellido:<input type="text" name="apellido2" required></div>
-                    <div class="div5">Cedula :<input type="text" name="cedula" required></div>
-                    <div class="div6">Telefono :<input type="number" name="telefono" required></div>
-                    <div class="div7">Correo :<input type="email" name="email" required></div>
-
-                </div>
-
-            </form>
-
-            <form name="formulario1" action="#">
-                <div class="parent2">
-
-                    <div class="div8">Departamento :<select class="seleccion" name="cosa" onchange="cambia()">
-                            <option value="0">Seleccione
-                            <option value="1">Amazonas
-                            <option value="2">Antioquia
-                            <option value="3">Arauca
-                            <option value="4">Atlantico
-                            <option value="5">Bolivar
-                            <option value="6">Boyaca
-                            <option value="7">Caldas
-                            <option value="8">Caqueta
-                            <option value="9">Casanare
-                            <option value="10">Cauca
-                            <option value="11">Cesar
-                            <option value="12">Choco
-                            <option value="13">Cordoba
-                            <option value="14">Cundinamarca
-                            <option value="15">Guainia
-                            <option value="16">Guaviare
-                            <option value="17">Huila
-                            <option value="18">La Guajira
-                            <option value="19">Magdalena
-                            <option value="20">Meta
-                            <option value="21">Narino
-                            <option value="22">Norte de Santander
-                            <option value="23">Putumayo
-                            <option value="24">Quindio
-                            <option value="25">Risaralda
-                            <option value="26">San Andrés y Providencia
-                            <option value="27">Santander
-                            <option value="28">Sucre
-                            <option value="29">Tolima
-                            <option value="30">Valle del Cauca
-                            <option value="31">Vaupés
-                            <option value="32">Vichada
-                        </select>
+            <div class="wrap">
+                <form name="form" action="registro.php" method="post">
+                    <div class="parent">
+                        <div class="div1">Primer Nombre :<input type="text" name="nombre1" required></div>
+                        <div class="div2">Segundo Nombre:<input type="text" name="nombre2" required></div>
+                        <div class="div3">Primer Apellido :<input type="text" name="apellido1" required></div>
+                        <div class="div4">Segundo Apellido:<input type="text" name="apellido2" required></div>
+                        <div class="div5">Cedula :<input type="text" name="cedula" required></div>
+                        <div class="div6">Telefono :<input type="number" name="telefono" required></div>
+                        <div class="div7">Correo :<input type="email" name="email" required></div>
+    
                     </div>
-                    <div class="div9">Municipio: <select class="seleccion" name="opt">
-                            <option value="-">-
-                        </select></div>
-                    <div class="div10">Barrio :<input type="text" name="barrio" required></div>
-                    <div class="div11">Direccion :<input type="text" name="direccion" required>
-                        <p>
+    
+                </form>
+    
+                <form name="formulario1" action="#">
+                    <div class="parent2">
+    
+                        <div class="div8">Departamento :<select class="seleccion" name="cosa" onchange="cambia()">
+                                <option value="0">Seleccione
+                                <option value="1">Amazonas
+                                <option value="2">Antioquia
+                                <option value="3">Arauca
+                                <option value="4">Atlantico
+                                <option value="5">Bolivar
+                                <option value="6">Boyaca
+                                <option value="7">Caldas
+                                <option value="8">Caqueta
+                                <option value="9">Casanare
+                                <option value="10">Cauca
+                                <option value="11">Cesar
+                                <option value="12">Choco
+                                <option value="13">Cordoba
+                                <option value="14">Cundinamarca
+                                <option value="15">Guainia
+                                <option value="16">Guaviare
+                                <option value="17">Huila
+                                <option value="18">La Guajira
+                                <option value="19">Magdalena
+                                <option value="20">Meta
+                                <option value="21">Narino
+                                <option value="22">Norte de Santander
+                                <option value="23">Putumayo
+                                <option value="24">Quindio
+                                <option value="25">Risaralda
+                                <option value="26">San Andrés y Providencia
+                                <option value="27">Santander
+                                <option value="28">Sucre
+                                <option value="29">Tolima
+                                <option value="30">Valle del Cauca
+                                <option value="31">Vaupés
+                                <option value="32">Vichada
+                            </select>
+                        </div>
+                        <div class="div9">Municipio: <select class="seleccion" name="opt">
+                                <option value="-">-
+                            </select></div>
+                        <div class="div10">Barrio :<input type="text" name="barrio" required></div>
+                        <div class="div11">Direccion :<input type="text" name="direccion" required>
+                            <p>
+                        </div>
+                        <div class="div12">Nombre de la unidad :<input type="text" name="nomunidad" required></div>
                     </div>
-                    <div class="div12">Nombre de la unidad :<input type="text" name="nomunidad" required></div>
-                </div>
-                </div>
+                    </div>
+    
+                    <label for="condiciones">Autorizo el tratamiento de mis datos</label><input type="checkbox"
+                        name="condiciones" />
+    
+                    <input class="enjoy-css" type="submit" value="Enviar" />
+    
 
-                <label for="condiciones">Autorizo el tratamiento de mis datos</label><input type="checkbox"
-                    name="condiciones" />
+            </div>
 
-                <input class="enjoy-css" type="submit" value="Enviar" />
-
+            
 
                 <link async href="http://fonts.googleapis.com/css?family=Baumans" data-generated="http://enjoycss.com"
                     rel="stylesheet" type="text/css" />

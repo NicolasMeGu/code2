@@ -11,10 +11,13 @@
 
       :root {
 
-        --my-color: rgb(17, 0, 113);
+        --my-color: rgb(240, 170, 8);
         --my-color2: black;
         --background-color: #F9F3EE;
         --div-color: #d2f066;
+        --bordercolor: #333;
+        --buton-color: #333;
+        --buton-color2: rgb(130, 206, 8);
 
       }
 
@@ -23,6 +26,8 @@
         font-family: 'Indie Flower', cursive;
 
         font-family: 'Syne Mono', monospace;
+        background-color: var(--buton-color);
+        height: 70px;
 
         font-family: 'Titillium Web', sans-serif;
       }
@@ -115,6 +120,7 @@
         box-shadow: 10px 14px 10px -6px rgba(117, 117, 115, 1);
         margin: 0 auto;
         width: 50%;
+        border: 1px solid black;
 
       }
 
@@ -196,7 +202,7 @@
         left: 15px;
         border-radius: 50%;
         background: none;
-        border: 3px solid #5b36ff;
+        border: 3px solid var(--bordercolor );
       }
 
       .formulario input[type="radio"] {
@@ -209,7 +215,7 @@
 
       .formulario input[type="radio"]:checked+label {
         padding: 5px 15px;
-        background: #57267d;
+        background: var(--buton-color);
         border-radius: 2px;
         color: rgb(250, 250, 250);
       }
@@ -227,7 +233,7 @@
       }
 
       .formulario .checkbox input[type="checkbox"]:checked+label {
-        background: #ad3a91;
+        background: var(--buton-color2);
         color: rgb(255, 251, 251);
         padding: 5px 15px;
       }
