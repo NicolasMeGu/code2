@@ -2,30 +2,34 @@ body:before {
   display: none;
   white-space: pre;
   font-family: monospace;
-  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - estilos.sass"; 
+  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - estilos.sass";
 
 }
-body{
+
+body {
   background-image: url('/admin/img/fondo-formulario.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
-form input{
+
+form input {
   display: block;
   text-align: center;
   margin-bottom: 10px;
   font-size: 20px;
 }
 
-select{
+select {
   display: block;
 }
-.title{
+
+.title {
   text-align: center;
 }
+
 .footer-clean .copyright {
-  margin:10px;
-  font-size:20px;
+  margin: 10px;
+  font-size: 20px;
   text-align: center;
 }
